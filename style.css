@@ -1,0 +1,59 @@
+body{
+    background-color: bisque;
+}
+nav{
+    margin: auto;
+}
+nav ul{
+    justify-content: center;
+    display: flex;
+    gap: 5rem;
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+#contact-box{
+    border: 1px solid black;
+    margin-top: -05px;
+    padding: .5rem;
+}
+
+/* Main */
+.main{
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1{
+    text-align: center;
+    margin-top: 10rem ;
+    font-size: 3rem;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.main p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cont_btn{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+}
+.cont_btn button{
+    color: white;
+    background-color: cadetblue;
+    border: 0px;
+    box-shadow: 1px 1px 1px black;
+    padding: .5rem;
+}
+.cont_btn button:hover{
+    color: antiquewhite;
+    background-color: black;
+
+}
+
