@@ -1,9 +1,14 @@
 body{
+    margin:0px;
+    padding:0px;
     background-color: bisque;
     margin: auto;
 }
 nav{
     margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    
+    /* box-shadow: 1px 2px 2px rgb(130, 130, 130); */
 }
 nav ul{
     justify-content: center;
@@ -18,7 +23,6 @@ nav ul li{
 }
 
 #contact-box{
-    border: 1px solid black;
     margin-top: -05px;
     padding: .5rem;
 }
@@ -73,6 +77,7 @@ nav ul li{
     transition-duration: 1s;
     width: 20rem;
     height: 20rem;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .box:hover{
@@ -95,4 +100,11 @@ nav ul li{
 .abt-img img{
     border-radius: 50%;
     width: 30rem;
+}
+.article{
+    height:12rem;
+    background-color:white;
+    margin-top:5rem;
+    aligntext
+
 }
