@@ -64,11 +64,16 @@ nav ul li{
 }
 
 .box{
-    border: 1px black solid;
+    border: 0px black solid;
+    background-color:antiquewhite;
     padding-bottom: 5px;
     margin: auto;
+    transition-duration: 1s;
 }
 
 .box:hover{
-    
+    box-shadow: 2px 2px 2px 2px black;
+    background-color: rgba(95, 158, 160, 0.587);
+    transition-duration: 1s;
+    border: 0px;
 }
