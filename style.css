@@ -1,5 +1,6 @@
 body{
     background-color: bisque;
+    margin: auto;
 }
 nav{
     margin: auto;
@@ -7,6 +8,7 @@ nav{
 nav ul{
     justify-content: center;
     display: flex;
+    flex-wrap:wrap;    
     gap: 5rem;
 }
 nav ul li{
@@ -58,9 +60,9 @@ nav ul li{
 }
 .box-sec{
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .box{
@@ -69,6 +71,8 @@ nav ul li{
     padding-bottom: 5px;
     margin: auto;
     transition-duration: 1s;
+    width: 20rem;
+    height: 20rem;
 }
 
 .box:hover{
@@ -76,4 +80,19 @@ nav ul li{
     background-color: rgba(95, 158, 160, 0.587);
     transition-duration: 1s;
     border: 0px;
+}
+
+.internal-abt{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;  
+}
+.abt-txt{
+    width: 35rem;
+    margin: auto;
+}
+
+.abt-img img{
+    border-radius: 50%;
+    width: 30rem;
 }
