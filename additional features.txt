@@ -1,4 +1,0 @@
-- Our communication platform enables clients to engage in initial conversations. Following this, both parties can seamlessly transition to a video conference for issue resolution.
-- Nyayguru-powered chatbot provides essential guidance and general knowledge to enhance understanding of the current judiciary landscape.
-- The submission of case-related documents and evidentiary materials onto the portal is facilitated to ensure the comprehensive documentation of pertinent information.
-- Each user will be assigned a unique identification (ID) that serves as their portal's distinctive marker, encompassing their comprehensive case history.
