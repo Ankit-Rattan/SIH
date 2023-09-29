@@ -3,6 +3,7 @@ import Navbar from "./navbar";
 import Mainone from "./mainOne";
 import Option from "./option";
 import Section from "./section";
+import Footer from "./footer";
 
 
 function App(){
@@ -12,6 +13,7 @@ function App(){
         <Mainone/>
         <Option/>
         <Section/>
+        <Footer/>
         </div>
     );
 }

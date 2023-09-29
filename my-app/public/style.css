@@ -14,6 +14,11 @@ nav h1{
     color:beige;
 
 }
+marquee{
+    background-color: khaki;
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 /* MainOne */
 .MainOne{
@@ -49,6 +54,9 @@ nav h1{
     text-align: center;
     font-size: larger;
 }
+.opt:hover{
+    background-color:azure;
+}
 .opt h3{
     font-size: 2.5rem;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -73,7 +81,7 @@ nav h1{
 }
 .opt button:hover{
     cursor: pointer;
-    background-color:rgba(95, 158, 160, 0.347);
+    background-color:rgba(95, 158, 160, 0.158);
     transition-duration: .3s;
 }
 
@@ -84,3 +92,9 @@ nav h1{
 
 /* Section */
 
+/* Footer */
+footer{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: .5rem;
+}
