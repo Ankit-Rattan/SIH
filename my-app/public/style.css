@@ -1,0 +1,15 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color:cadetblue;
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    box-shadow: 1px 5px 7px 2px rgb(147, 147, 147);
+}
+nav h1{
+    color:beige;
+
+}
