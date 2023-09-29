@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "./navbar";
 import Mainone from "./mainOne";
 import Option from "./option";
+import Section from "./section";
+
 
 function App(){
     return(
@@ -9,6 +11,7 @@ function App(){
         <Navbar/>
         <Mainone/>
         <Option/>
+        <Section/>
         </div>
     );
 }
