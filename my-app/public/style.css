@@ -13,3 +13,19 @@ nav h1{
     color:beige;
 
 }
+
+.MainOne{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.MainOne h1{
+    color: brown;
+}
+.MainOne p{
+    color:chocolate;
+}
