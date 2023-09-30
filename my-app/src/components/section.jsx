@@ -4,19 +4,22 @@ function Section(){
     return(
         <div className="Section">
             <div className="Why sec">
-                <h3>Client <br/> One</h3>
+                <img src=""/>
+                <h3>Why e-Court?</h3>
                 <p>Client One can register throught here and proced with thier own queries for the furthur discusion.</p>
-                <button>Proceed</button>
+                <button>Know More</button>
             </div>
             <div className="Connect sec">
-                <h3>Client<br/> Two</h3>
+                <img src=""/>
+                <h3>Connect With Us</h3>
                 <p>Client One can register throught here and proced with thier own queries for the furthur discusion.</p>
-                <button>Proceed</button>
+                <button>Help</button>
             </div>
             <div className="Contribute sec">
-                <h3>Advocate</h3>
-                <p>Client One can register throught here and proced with thier own queries for the furthur discusion.</p>
-                <button>Proceed</button>
+                <img src=""/>
+                <h3>Info and FAQs</h3>
+                <p>For any furthur queries and explanations required by the experts, click on the button below.</p>
+                <button>Click to View</button>
                 
             </div>
         </div>
