@@ -27,6 +27,33 @@ nav h1{
 .digitalIndImg img{
     width: 10rem;
 }
+
+/* Nav Options */
+.optNav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Navopt ul {
+    display: flex;
+    gap: 2rem;
+}
+
+#Navopt ul li{
+    list-style: none;
+}
+#Navopt ul li:hover{
+    cursor: pointer;
+    color:brown;
+    font-weight:400;
+    transition-duration: .5s;
+}
+
 marquee{
     background-color: khaki;
     color: brown;
