@@ -11,7 +11,8 @@ function App(){
         <div>
         <Navbar/>
         <Mainone/>
-        <Option/>
+        {/* Option is under the MainOne section */}
+        {/* <Option/> */}
         <Section/>
         <Footer/>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
-import bg from "./images/heroImg2.jpg";
-
+import bg from "./images/heroImg1.jpg";
+import Option from './option'
 
     
     
@@ -18,8 +18,8 @@ function MainOne(){
         <div  className="MainOne">
             <h1>Welcome to e-Court</h1>
             <p>Where Justice Meet Proof</p>
-
         </div>
+            <Option/>
         </div>
     );
 }
