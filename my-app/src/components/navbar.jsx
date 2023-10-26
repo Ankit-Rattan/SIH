@@ -1,48 +1,31 @@
 import React from "react";
-import lionLogo from "./images/lion-sym.png";
-import digiLogo from "./images/DigitalInd.png";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import SignIn from "./Pages/SignIn";
+import Register from "./Pages/Register";
 
-function Navbar(){
-    return(
-        <div>
-
-        <nav>
-            
-            <h1>E-Court</h1>
-            
-            <div className="rightIcon">
-            <div className="digitalIndImg">
-                <img src={digiLogo} alt="lionIcon"/>
-            </div>
-            <div className="lionImg">
-                <img src={lionLogo} alt="lionIcon"/>
-            </div>
-            </div>
+function Navbar() {
+  return (
+    <>
+      <BrowserRouter>
+        <nav className="nav">
+          <div className="leftNav"></div>
+          <div className="rightNav">
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact-us">Contact Us</Link>
+          </div>
         </nav>
-        <div className="optNav">
-            <div id="Navopt" className="leftOpt">
-
-            <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Features</li>
-                <li>Contact Us</li>
-            </ul>
-            </div>
-            <div id="Navopt" className="rightOpt">
-                <ul>
-                    <li>Sign in</li>
-                    <li>Register</li>
-                </ul>
-            </div>
-
-            
-        </div>
-        <marquee>
-            <p>This line is for the latest update regular in justice firm.  This line is for the latest update regular in justice firm</p>
-        </marquee>
-        </div>
-    );
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact-us" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
 }
 
 export default Navbar;

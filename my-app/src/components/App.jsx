@@ -1,22 +1,19 @@
 import React from "react";
 import Navbar from "./navbar";
-import Mainone from "./mainOne";
-import Option from "./option";
-import Section from "./section";
-import Footer from "./footer";
+import Footer from "./Footer";
+import Header from "./Header";
+import OptionsList from "./OptionsList";
 
-
-function App(){
-    return(
-        <div>
-        <Navbar/>
-        <Mainone/>
-        {/* Option is under the MainOne section */}
-        {/* <Option/> */}
-        <Section/>
-        <Footer/>
-        </div>
-    );
+function App() {
+  return (
+    <div>
+      {/* <Header /> */}
+      <Navbar />
+      {/* Option is under the MainOne section */}
+      {/* <Option/> */}
+      {/* <Footer /> */}
+    </div>
+  );
 }
 
 export default App;
