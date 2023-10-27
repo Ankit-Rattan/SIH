@@ -16,12 +16,16 @@ function Navbar() {
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/contact-us">Contact Us</Link>
+            <Link to="/signin">SignIn</Link>
+            <Link to="/register">Register</Link>
           </div>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact-us" element={<Contact />} />
+          <Route path="/signup" element={<SignIn />} />
+          <Route path="/register" element={<Register />} />
         </Routes>
       </BrowserRouter>
     </>
