@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../data/optionData";
+import data from "../../data/optionData";
 
 export default function OptionsList(props) {
   const optionElements = data.map((data) => {

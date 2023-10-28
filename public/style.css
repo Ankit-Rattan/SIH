@@ -131,3 +131,78 @@ footer {
   margin: 0.5rem;
 }
 
+/* ~~~~~~~~~~~About~~~~~~~~~~~ */
+.about-page {
+  width: 80%;
+  margin: 2rem auto;
+}
+.about-us,
+.our-goals,
+.benefits {
+  margin-top: 2rem;
+  background-color: #dfba7a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.about--heading,
+.goals--heading,
+.benefits--heading {
+  color: #695b5c;
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: right;
+}
+.our-goals {
+  gap: 1.3rem;
+}
+.goals--heading,
+.our-goals ul {
+  text-align: left;
+}
+
+.our-goals ul > li {
+  list-style: circle;
+  font-size: 1.3rem;
+}
+
+.vertical-line {
+  width: 2px;
+  height: 300px;
+  background-color: #695b5c;
+}
+
+.benefits img {
+  width: 550px;
+}
+
+/* .benefits--heading {
+  rotate: -90deg;
+} */
+
+.benefits .vertical-line {
+  height: 400px;
+}
+
+@media (max-width: 1200px) {
+  .about-us > img,
+  .our-goals > img,
+  .benefits img {
+    width: 400px;
+  }
+
+  .about--heading,
+  .goals--heading,
+  .benefits--heading {
+    font-size: 3rem;
+  }
+
+  .our-goals ul > li {
+    font-size: 1rem;
+  }
+}

@@ -15,7 +15,6 @@ function App() {
       {/* Option is under the MainOne section */}
       {/* <Option/> */}
       {/* <Footer /> */}
-      <About/>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import OptionsList from "../OptionsList";
+import OptionsList from "./OptionsList";
 import bg from "../images/heroImg3.jpg";
 
 function MainOne() {
