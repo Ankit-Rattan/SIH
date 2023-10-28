@@ -6,21 +6,13 @@ export default function Header() {
   return (
     <>
       <header>
-      <h1>E-Court</h1>
+        <h1>E-Court</h1>
 
-      <div className="rightIcon">
+        <div className="rightIcon">
           <img src={digiLogo} alt="lionIcon" className="digitalIndImg" />
-          <img src={lionLogo} alt="lionIcon" className="lionImg"/>
-      </div>
-      
-    </header>
-    
-    <marquee>
-    <p>
-      This line is for the latest update regular in justice firm. This line
-      is for the latest update regular in justice firm
-    </p>
-  </marquee>
+          <img src={lionLogo} alt="lionIcon" className="lionImg" />
+        </div>
+      </header>
     </>
   );
 }

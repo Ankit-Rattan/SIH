@@ -1,8 +1,7 @@
 import React from "react";
-import Navbar from "./navbar";
-import Footer from "./footer";
-import Header from "./Header";
-import OptionsList from "./OptionsList";
+import Navbar from "./Navbar";
+// import Footer from "./Footer";
+// import Header from "./Header";
 import About from "./Pages/About";
 
 // import {collection, getDocs, onSnapshot} from 'firebase/firestore';

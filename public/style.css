@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #695b5c;
+  background-color: #695b5c !important;
 }
 
 /* Nav Options */
@@ -73,13 +73,12 @@ main {
   justify-content: center;
   padding: 2rem;
   position: relative;
-  top: 22rem;
+  top: 20rem;
 }
 
 .opt {
   background-color: #dfba7a;
   width: 18rem;
-  height: 15rem;
   padding: 2rem;
   text-align: center;
   font-size: larger;
@@ -95,14 +94,12 @@ main {
   transition-duration: 0.5s;
 }
 .opt h3 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 .opt p {
-  width: 15rem;
-  text-align: center;
-  padding-top: 1rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
