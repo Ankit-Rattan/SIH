@@ -61,6 +61,7 @@ function Register() {
             name="username"
             className="form-control"
             autoComplete="off"
+            placeholder="Username"
           />
         </div>
 
@@ -72,6 +73,7 @@ function Register() {
             type="number"
             name="phone"
             className="form-control"
+            placeholder="Enter your phone number"
           ></input>
         </div>
 
@@ -86,6 +88,7 @@ function Register() {
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
             autoComplete="off"
+            placeholder="Email"
           ></input>
           <small id="emailHelp" className="form-text text-muted">
             We'll never share your email with anyone else.
@@ -124,7 +127,7 @@ function Register() {
       <br />
       <p>OR</p>
 
-      <Link to="/signin">SignIn Page</Link>
+      <Link to="/signin" className="sign-in">SignIn Page</Link>
     </div>
   );
 }

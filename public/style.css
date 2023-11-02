@@ -10,12 +10,13 @@
 }
 
 body {
-  background-color: #695b5c !important;
+  background-color: #f8f4f5 !important;
+  /* background-color: #695b5c !important; */
 }
 
 /* Nav Options */
 nav {
-  background: #695b5c;
+  background: #3c3535;
   display: flex;
   justify-content: space-between;
   padding: 1.4rem 2rem;
@@ -148,7 +149,24 @@ footer {
   gap: 2rem;
   padding: 2rem;
   border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 30px 90px;
+  transition-duration: .5s;
+}
+#about_us{
+  margin-top: 300px;
+}
+#contact_us{
+  width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-us:hover,.our-goals:hover,.benefits:hover{
+  /* width: 75rem; */
+  box-shadow: rgba(250, 246, 246, 0.4) 1px 30px 90px;
+  transition: 1s;
+
+  
+  
 }
 .about--heading,
 .goals--heading,
@@ -206,3 +224,22 @@ footer {
     font-size: 1rem;
   }
 }
+
+.submit{
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 5px;
+}
+.submit:hover{
+  background-color: black;
+  color: white;
+  transition-duration: .5s;
+}
+
+.sign-in{
+  text-decoration: none;
+  color:teal;
+}
+
+/* Contact Us */
+

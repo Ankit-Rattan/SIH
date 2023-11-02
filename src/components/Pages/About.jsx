@@ -7,7 +7,7 @@ import benefits from "../images/benefits.png";
 export default function About() {
   return (
     <div className="about-page">
-      <section className="about-us">
+      <section className="about-us" id="about_us">
         <img src={about} />
         <div>
           <h3 className="about--heading">
