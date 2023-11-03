@@ -13,9 +13,6 @@ function App() {
     <div>
       {/* <Header /> */}
       <Navbar className = "my-36" />
-      
-      <About/>
-      <Contact/>
       {/* Option is under the MainOne section */}
       {/* <Option/> */}
       {/* <Footer /> */}

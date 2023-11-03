@@ -10,8 +10,8 @@
 }
 
 body {
-  background-color: #f8f4f5 !important;
-  /* background-color: #695b5c !important; */
+  /* background-color: #f8f4f5 !important; */
+  background-color: #695b5c !important;
 }
 
 /* Nav Options */
@@ -53,7 +53,7 @@ nav div a:hover {
 
 .home .heading {
   color: white;
-  padding: 2rem;
+  padding: 2rem 0.5rem;
 }
 
 .home .heading h1 {
@@ -139,7 +139,8 @@ footer {
 }
 .about-us,
 .our-goals,
-.benefits {
+.benefits,
+.contact-us {
   margin-top: 2rem;
   background-color: #dfba7a;
   display: flex;
@@ -153,19 +154,17 @@ footer {
   transition-duration: .5s;
 }
 #about_us{
-  margin-top: 300px;
+  margin-top: 350px;
 }
 #contact_us{
-  width: 70rem;
+  width: 75rem;
   margin-left: auto;
   margin-right: auto;
 }
-.about-us:hover,.our-goals:hover,.benefits:hover{
+.about-us:hover,.our-goals:hover,.benefits:hover,.contact-us:hover{
   /* width: 75rem; */
-  box-shadow: rgba(250, 246, 246, 0.4) 1px 30px 90px;
+  transform: scale(1.01);
   transition: 1s;
-
-  
   
 }
 .about--heading,
@@ -174,6 +173,7 @@ footer {
   color: #695b5c;
   font-size: 4rem;
   font-weight: 600;
+  transition: 1s;
   text-align: right;
 }
 .our-goals {
@@ -242,4 +242,3 @@ footer {
 }
 
 /* Contact Us */
-

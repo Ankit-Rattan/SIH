@@ -1,6 +1,8 @@
 import React from "react";
 import OptionsList from "./OptionsList";
 import bg from "../images/heroImg3.jpg";
+import About from "./About";
+import Contact from "./Contact";
 
 function MainOne() {
   const styles = {
@@ -8,7 +10,7 @@ function MainOne() {
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     backgroundAttachment: "fixed",
-    backgroundPosition: "center",
+    backgroundPosition: "left",
   };
 
   return (
@@ -16,11 +18,13 @@ function MainOne() {
       <div className="home">
         {/* <img src={bg} /> */}
         <div className="heading">
-          <h1>Welcome to e-Court</h1>
+          <h1>Welcome to CourtKacheri</h1>
           <p>Where Justice Meet Proof</p>
         </div>
       </div>
       <OptionsList />
+      <About />
+      <Contact />
     </main>
   );
 }
